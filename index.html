@@ -1,0 +1,401 @@
+<!-- /*
+* Template Name: Untreefolio
+* Template Author: Untree.co
+* Tempalte URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        p {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left; /* Align the text to the left */
+        }
+      p span:hover {
+          color: #0813b8; /* Change to your desired color on hover */
+          cursor: pointer;
+      }
+      .contact-card {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .contact-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .info {
+        flex-grow: 1;
+    }
+  </style>
+
+  </head>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+
+    <div class="unslate_co--site-wrap">
+
+      <div class="unslate_co--site-inner">
+
+      
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container">
+        
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="#home-section" class="nav-link">Home</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a href="#">Menu 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Menu 2</a>
+                    </li>
+                    <li>
+                      <a href="#">Menu 3</a>
+                    </li>
+                    <li>
+                      <a href="#">Menu 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Menu 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#portfolio-section" class="nav-link">Projects</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">Developer<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+               
+                <li><a href="#testimonial-section" class="nav-link">Testimonial</a></li>
+                
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+      <div class="cover-v1 jarallax bg-light" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+              
+            <div class="col-md-8 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero">Johin K Gigi</h1>
+              <h2 class="subheading gsap-reveal-hero">Dedicated React Native and Python Flask developer with a year of practical
+                experience in the fast-paced field of developing mobile applications. </h2>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- END .cover-v1 -->
+
+
+      <div class="unslate_co--section" id="portfolio-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5" data-aos="fade-up">
+            <h2 class="heading-h2 text-center divider">Projects</h2>
+            
+          </div>
+          
+          <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+          <div id="portfolio-single-holder"></div>
+
+          <div class="portfolio-wrapper">
+            
+            <div id="posts" class="row gutter-isotope-item">
+             
+              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="3">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>CreativeStudio</h3>
+                        <p>branding, packaging, illustration</p>
+                      </div>
+                    </div>
+                    <img src="images/portfolio/img_v_1.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-4.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page" data-id="4">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Cover Alls</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/portfolio/img_v_2.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-4.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page" data-id="4">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Cover Alls</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/portfolio/img_v_2.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              
+
+            </div>
+            
+          </div>
+
+
+        </div>
+      </div>
+
+
+      
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          
+          
+
+          <div class="row mt-5 justify-content-between align-items-center">
+            <div class="col-lg-7 mb-5 mb-lg-0" data-aos="fade-up">
+              <figure class="dotted-bg">
+                <img src="images/profile.jpg" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-5 pl-lg-5" data-aos="fade-up"  data-aos-delay="100">
+              <h3 class="mb-4 heading-h3">Johin K Gigi</h3>
+              <p style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; margin-bottom: 20px;">
+                Hey! I've been in the <span style="color: #007bff; font-weight: bold;">mobile app development</span> scene for about a year now, after earning my Computer Science degree from <span style="font-style: italic;">Mahatma Gandhi University</span>. Currently, I'm a <span style="font-weight: bold;">Senior Software Developer</span> at <span style="color: #ff6f61;">CrudOps Pvt Ltd</span>, focusing mainly on <span style="text-decoration: underline;">React Native</span> apps since 2023. Alongside React Native, I also work with <span style="font-style: italic;">Python Flask</span> and sometimes dip into <span style="font-style: italic;">machine learning</span> projects.
+                <br><br>
+                My day-to-day involves not just coding, but also ensuring our apps meet top-notch standards and coordinating multiple projects. Plus, I get to interact with clients to ensure we're hitting the mark with their needs. Oh, and I also mentor interns to help them navigate this exciting field.
+                <br><br>
+                That's pretty much me in a nutshell – always keen to chat about tech and the latest happenings in the industry!
+            </p>
+            
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+  
+
+
+      <div class="site-section unslate_co--section" id="services-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5" data-aos="fade-up">
+            <h2 class="heading-h2 text-center divider">Technical Skills</h2>
+            
+          </div>
+
+          <div class="row ">
+
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="service d-flex h-100">
+                  <div class="service-number mr-4"><span>01</span></div>
+                  <div class="service-about">
+                      <h3 style="font-weight: bold;">Frontend Development:</h3>
+                      <ul style="list-style-type:circle; padding: 0;">
+                          <li style="display: block; margin-bottom: 5px;">React Native </li>
+                          <li style="display: block; margin-bottom: 5px;">React Js</li>
+                          <li style="display: block; margin-bottom: 5px;">Bootstrap </li>
+                          <li style="display: block; margin-bottom: 5px;">jQuery</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          
+          
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="service d-flex h-100">
+                <div class="service-number mr-4"><span>02</span></div>
+                <div class="service-about">
+                    <h3 style="font-weight: bold;">Backend Development:</h3>
+                    <ul style="list-style-type:circle; padding: 0;">
+                        <li style="display: block; margin-bottom: 5px;">Python Flask </li>
+                        <li style="display: block; margin-bottom: 5px;">PHP</li>
+                        <li style="display: block; margin-bottom: 5px;">MySQL</li>
+                        <li style="display: block; margin-bottom: 5px;">PostgreSQL</li>
+                        <li style="display: block; margin-bottom: 5px;">Firebase</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span>03</span></div>
+              <div class="service-about">
+                  <h3 style="font-weight: bold;">API Development and Testing:</h3>
+                  <ul style="list-style-type:circle; padding: 0;">
+                      <li style="display: block; margin-bottom: 5px;">REST API </li>
+                      <li style="display: block; margin-bottom: 5px;">Postman</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service d-flex h-100">
+            <div class="service-number mr-4"><span>04</span></div>
+            <div class="service-about">
+                <h3 style="font-weight: bold;">Tools and Additional Skills:</h3>
+                <ul style="list-style-type:circle; padding: 0;">
+                    <li style="display: block; margin-bottom: 5px;">Redux</li>
+                    <li style="display: block; margin-bottom: 5px;">Git and GitHub</li>
+                    <li style="display: block; margin-bottom: 5px;">Slight Knowledge in Machine Learning</li>
+                    <li style="display: block; margin-bottom: 5px;">OOPs</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+          </div>
+        </div>
+      </div>
+          
+
+    
+
+      
+
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+            <div class="section-heading-wrap text-center mb-5" data-aos="fade-up">
+                <h2 class="heading-h2 text-center divider">Contact Me</h2>
+            </div>
+    
+            <div class="row justify-content-center">
+    
+                <div class="col-md-4" data-aos-delay="200">
+                    <div class="contact-info-v1">
+                        <div class="d-flex flex-row align-items-center contact-card">
+                            <div class="icon mr-3">
+                                <a href="mailto:johinkgigi@gmail.com">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                            <div class="info">
+                                <span class="contact-info-label">Email</span>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=johinkgigi@gmail.com" class="contact-info-val">johinkgigi@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center contact-card">
+                            <div class="icon mr-3">
+                                <a href="tel:+917559944108">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="info">
+                                <span class="contact-info-label">Phone</span>
+                                <a href="tel:+917559944108" class="contact-info-val">+91 7559944108</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    
+      </div> <!-- END .unslate_co-site-inner -->
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              
+             
+
+              
+
+              <p class="site-copyright"><small>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. JOHIN K GIGI </small></p>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+    </div>
+
+    
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+
+    
+
+  </body>
+</html>
